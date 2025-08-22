@@ -216,21 +216,21 @@ $$
     -   Tính từng phần:
 
         $$
-        \frac{\partial L}{\partial Y1_Final} = 
-            (Y1_Final - T1)* Y1_Final = 
+        \frac{\partial L}{\partial Y1_Final} =
+            (Y1_Final - T1)* Y1_Final =
             ...
         $$
 
         $$
-        \frac{\partial Y1_Final}{\partial Y1} = 
-            \frac{\partial \sigma(Y1)}{\partial Y1} = 
-            \sigma(Y1) * (1 - \sigma(Y1)) = 
-            Y1_Final * (1 - Y1_Final) = 
+        \frac{\partial Y1_Final}{\partial Y1} =
+            \frac{\partial \sigma(Y1)}{\partial Y1} =
+            \sigma(Y1) * (1 - \sigma(Y1)) =
+            Y1_Final * (1 - Y1_Final) =
             ...
         $$
 
         $$
-        \frac{\partial Y1}{\partial W5} = 
+        \frac{\partial Y1}{\partial W5} =
             H1_Final
         $$
 
