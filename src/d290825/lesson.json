@@ -1,245 +1,282 @@
 [
-    {
+    {   
+        "id": 0,
         "title": "Con đường học PhD của tôi",
         "url": "/lifesofar2/",
         "date": "11 Oct 2018"
     },
     {
+        "id": 1,
         "title": "Bài 37: Tích chập hai chiều",
         "url": "/2018/10/03/conv2d",
         "date": "03 Oct 2018"
     },
     {
+        "id": 2,
         "title": "Giới thiệu Diễn đàn Machine Learning cơ bản",
         "url": "/2018/09/11/forum/",
         "date": "11 Sep 2018"
     },
     {
+        "id": 3,
         "title": "Bài 36. Giới thiệu về Keras",
         "url": "/2018/07/06/deeplearning/",
         "date": "06 Jul 2018"
     },
     {
+        "id": 4,
         "title": "Bài 35: Lược sử Deep Learning",
         "url": "/2018/06/22/deeplearning/",
         "date": "22 Jun 2018"
     },
     {
+        "id": 5,
         "title": "Bạn đọc viết: Con đường học Khoa học dữ liệu của một sinh viên Kinh\n            tế",
         "url": "/2018/03/22/phuonghoagiang/",
         "date": "22 Mar 2018"
     },
     {
+        "id": 6,
         "title": "Bài 34: Decision Trees (1): Iterative Dichotomiser 3",
         "url": "/2018/01/14/id3/",
         "date": "14 Jan 2018"
     },
     {
+        "id": 7,
         "title": "Bài 33: Các phương pháp đánh giá một hệ thống phân lớp",
         "url": "/2017/08/31/evaluation/",
         "date": "03 Jan 2018"
     },
     {
+        "id": 8,
         "title": "FundaML 3: Làm việc với các mảng ngẫu nhiên",
         "url": "/2017/10/20/fundaml_vectors/",
         "date": "28 Oct 2017"
     },
     {
+        "id": 9,
         "title": "FundaML 2: Làm việc với ma trận",
         "url": "/2017/10/20/fundaml_matrices/",
         "date": "28 Oct 2017"
     },
     {
+        "id": 10,
         "title": "FundaML 1: Làm việc với mảng một chiều",
         "url": "/2017/10/12/fundaml_vectors/",
         "date": "28 Oct 2017"
     },
     {
+        "id": 11,
         "title": "Giới thiệu trang web FundaML.com",
         "url": "/2017/09/24/fundaml/",
         "date": "24 Sep 2017"
     },
     {
+        "id": 12,
         "title": "Bài 32: Naive Bayes Classifier",
         "url": "/2017/08/08/nbc/",
         "date": "08 Aug 2017"
     },
     {
+        "id": 13,
         "title": "PhD life 1: Quá trình viết và nhận xét các bài báo khoa học",
         "url": "/2017/08/05/phdlife/",
         "date": "05 Aug 2017"
     },
     {
+        "id": 14,
         "title": "Bài 31: Maximum Likelihood và Maximum A Posteriori estimation",
         "url": "/2017/07/17/mlemap/",
         "date": "17 Jul 2017"
     },
     {
-        "title": "Con đường học Toán của tôi",
-        "url": "/lifesofar/",
-        "date": "10 Jul 2017"
-    },
-    {
+        "id": 15,
         "title": "Bài 30: Ôn tập Xác Suất cho Machine Learning",
         "url": "/2017/07/09/prob/",
         "date": "09 Jul 2017"
     },
     {
+        "id": 16,
         "title": "Quick Note 2: Transfer Learning cho bài toán phân loại ảnh",
         "url": "/2017/07/02/tl/",
         "date": "02 Jul 2017"
     },
     {
+        "id": 17,
         "title": "Bài 29: Linear Discriminant Analysis",
         "url": "/2017/06/30/lda/",
         "date": "30 Jun 2017"
     },
     {
+        "id": 18,
         "title": "Quick Notes 1",
         "url": "/2017/06/22/qns1/",
         "date": "22 Jun 2017"
     },
     {
+        "id": 19,
         "title": "Bài 28: Principal Component Analysis (phần 2/2)",
         "url": "/2017/06/21/pca2/",
         "date": "21 Jun 2017"
     },
     {
+        "id": 20,
         "title": "Bài 27: Principal Component Analysis (phần 1/2)",
         "url": "/2017/06/15/pca/",
         "date": "15 Jun 2017"
     },
     {
+        "id": 21,
         "title": "Bài 26: Singular Value Decomposition",
         "url": "/2017/06/07/svd/",
         "date": "07 Jun 2017"
     },
     {
+        "id": 22,
         "title": "Bài 25: Matrix Factorization Collaborative Filtering",
         "url": "/2017/05/31/matrixfactorization/",
         "date": "31 May 2017"
     },
     {
+        "id": 23,
         "title": "Bài 24: Neighborhood-Based Collaborative Filtering",
         "url": "/2017/05/24/collaborativefiltering/",
         "date": "24 May 2017"
     },
     {
+        "id": 24,
         "title": "Bài 23: Content-based Recommendation Systems",
         "url": "/2017/05/17/contentbasedrecommendersys/",
         "date": "17 May 2017"
     },
     {
+        "id": 25,
         "title": "Bài 22: Multi-class Support Vector Machine",
         "url": "/2017/04/28/multiclasssmv/",
         "date": "28 Apr 2017"
     },
     {
+        "id": 26,
         "title": "Bài 21: Kernel Support Vector Machine",
         "url": "/2017/04/22/kernelsmv/",
         "date": "22 Apr 2017"
     },
     {
+        "id": 27,
         "title": "Bài 20: Soft Margin Support Vector Machine",
         "url": "/2017/04/13/softmarginsmv/",
         "date": "13 Apr 2017"
     },
     {
+        "id": 28,
         "title": "Bài 19: Support Vector Machine",
         "url": "/2017/04/09/smv/",
         "date": "09 Apr 2017"
     },
     {
+        "id": 29,
         "title": "Bài 18: Duality",
         "url": "/2017/04/02/duality/",
         "date": "02 Apr 2017"
     },
     {
+        "id": 30,
         "title": "Bài 17: Convex Optimization Problems",
         "url": "/2017/03/19/convexopt/",
         "date": "19 Mar 2017"
     },
     {
+        "id": 31,
         "title": "Bài 16: Convex sets và convex functions",
         "url": "/2017/03/12/convexity/",
         "date": "12 Mar 2017"
     },
     {
+        "id": 32,
         "title": "Bài 15: Overfitting",
         "url": "/2017/03/04/overfitting/",
         "date": "04 Mar 2017"
     },
     {
+        "id": 33,
         "title": "Bài 14: Multi-layer Perceptron và Backpropagation",
         "url": "/2017/02/24/mlp/",
         "date": "24 Feb 2017"
     },
     {
+        "id": 34,
         "title": "Bài 13: Softmax Regression",
         "url": "/2017/02/17/softmax/",
         "date": "17 Feb 2017"
     },
     {
+        "id": 35,
         "title": "Bài 12: Binary Classifiers cho các bài toán Classification",
         "url": "/2017/02/11/binaryclassifiers/",
         "date": "11 Feb 2017"
     },
     {
+        "id": 36,
         "title": "Bài 11: Giới thiệu về Feature Engineering",
         "url": "/general/2017/02/06/featureengineering/",
         "date": "06 Feb 2017"
     },
     {
-        "title": "Blog và các bài viết được tạo như thế nào",
-        "url": "/2017/02/02/howdoIcreatethisblog/",
-        "date": "02 Feb 2017"
-    },
-    {
+        "id": 37,
         "title": "Bài 10: Logistic Regression",
         "url": "/2017/01/27/logisticregression/",
         "date": "27 Jan 2017"
     },
     {
+        "id": 38,
         "title": "Bài 9: Perceptron Learning Algorithm",
         "url": "/2017/01/21/perceptron/",
         "date": "21 Jan 2017"
     },
     {
+        "id": 39,
         "title": "Bài 8: Gradient Descent (phần 2/2)",
         "url": "/2017/01/16/gradientdescent2/",
         "date": "16 Jan 2017"
     },
     {
+        "id": 40,
         "title": "Bài 7: Gradient Descent (phần 1/2)",
         "url": "/2017/01/12/gradientdescent/",
         "date": "12 Jan 2017"
     },
     {
+        "id": 41,
         "title": "Bài 6: K-nearest neighbors",
         "url": "/2017/01/08/knn/",
         "date": "08 Jan 2017"
     },
     {
+        "id": 42,
         "title": "Bài 5: K-means Clustering: Simple Applications",
         "url": "/2017/01/04/kmeans2/",
         "date": "04 Jan 2017"
     },
     {
+        "id": 43,
         "title": "Bài 4: K-means Clustering",
         "url": "/2017/01/01/kmeans/",
         "date": "01 Jan 2017"
     },
     {
+        "id": 44,
         "title": "Bài 3: Linear Regression",
         "url": "/2016/12/28/linearregression/",
         "date": "28 Dec 2016"
     },
     {
+        "id": 45,
         "title": "Bài 2: Phân nhóm các thuật toán Machine Learning",
         "url": "/2016/12/27/categories/",
         "date": "27 Dec 2016"
     },
     {
+        "id": 46,
         "title": "Bài 1: Giới thiệu về Machine Learning",
         "url": "/2016/12/26/introduce/",
         "date": "26 Dec 2016"

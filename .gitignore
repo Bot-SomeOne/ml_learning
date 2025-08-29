@@ -5,5 +5,8 @@ share
 pyvenv.cfg
 **/.DS_Store
 **/.env
+# ignore d250825
 src/d250825/json/
 src/d250825/pdf_images/
+# ignore d290825
+src/d290825/data/
