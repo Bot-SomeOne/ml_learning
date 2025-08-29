@@ -1,0 +1,25 @@
+{
+    "document_id": "archive-2018-10-03-37",
+    "title": "Bài 37: Tích chập hai chiều",
+    "date": "2018-10-03",
+    "series": "FundaML",
+    "tags": ["deep-learning", "convolution", "cnn"],
+    "author_type": "author",
+    "source": "https://machinelearningcoban.com/2018/10/03/convolution2d/",
+    "chunks": [
+        {
+            "chunk_id": "archive-2018-10-03-37-1",
+            "chunk_index": 1,
+            "text": "Tích chập là phép toán quan trọng trong deep learning...",
+            "keywords": ["tích chập", "deep learning", "cnn"],
+            "embedding": null
+        },
+        {
+            "chunk_id": "archive-2018-10-03-37-2",
+            "chunk_index": 2,
+            "text": "Trong mạng CNN, tích chập giúp trích xuất đặc trưng...",
+            "keywords": ["cnn", "feature extraction"],
+            "embedding": null
+        }
+    ]
+}
