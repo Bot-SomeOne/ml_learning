@@ -304,10 +304,7 @@ class AdvancedVehicleCounter:
         overlay = frame.copy()
         cv2.rectangle(overlay, (10, 10), (panel_width, panel_height), (0, 0, 0), -1)
         cv2.addWeighted(overlay, 0.7, frame, 0.3, 0, frame)
-        
-        # Border
-        cv2.rectangle(frame, (10, 10), (panel_width, panel_height), (0, 255, 255), 2)
-        
+                
         # Title
         cv2.putText(frame, "VEHICLE COUNTER", (20, 45),
                    cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 255, 255), 2)
@@ -348,7 +345,7 @@ class AdvancedVehicleCounter:
         
         # Panel 2: Direction statistics (top right)
         panel2_x = width - 300
-        panel2_y = 10
+        panel2_y = 80
         panel2_w = 290
         panel2_h = 180
         
@@ -373,11 +370,6 @@ class AdvancedVehicleCounter:
         down_total = sum(self.count_by_direction['down'].values())
         cv2.putText(frame, f"DOWN: {down_total}", (panel2_x + 20, y_dir + 40),
                    cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 100, 255), 2)
-        
-        # Time at bottom
-        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        cv2.putText(frame, current_time, (width - 280, height - 20),
-                   cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
     
     def reset(self):
         """Reset all counters"""
@@ -455,11 +447,11 @@ def main(video_path, output_path=None, line_coords=None, export_stats=True):
         export_stats: Export statistics to JSON (default: True)
     """
     print("="*60)
-    print("VEHICLE COUNTER - Ultralytics 8.3.221")
+    print("VEHICLE COUNTER")
     print("="*60)
     
     # Initialize counter
-    counter = AdvancedVehicleCounter(model_path='yolov8n.pt', line_coords=line_coords)
+    counter = AdvancedVehicleCounter(model_path='yolo12m.pt', line_coords=line_coords)
     
     # Open video
     cap = cv2.VideoCapture(video_path)
@@ -643,10 +635,11 @@ if __name__ == "__main__":
     output_path = "output_counted.mp4"
     
     # Option 1: Default horizontal line in the middle
-    main(video_path, output_path)
+    # main(video_path, output_path)
     
     # Option 2: Custom coordinates
-    # main(video_path, output_path, line_coords=[(100, 400), (1180, 400)])
+    # main(video_path, output_path, line_coords=[(336,554), (803, 549)])
+    main(video_path, output_path, line_coords=[(181,798), (1055, 777)])
     
     # Option 3: Webcam
     # main(0, None)
